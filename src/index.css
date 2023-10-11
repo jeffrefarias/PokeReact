@@ -1,0 +1,26 @@
+body {
+  /* border: 1px solid red; */
+  height: 100vh;
+}
+
+.active {
+  color: red !important;
+}
+
+.nav-link {
+  font-size: 1.5em; 
+  margin-right: 30px; 
+  color: white;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar{
+  background-color: rgb(94, 92, 92) !important;
+}
+
+.pokeIcon{
+  margin-left: 1em;
+}
