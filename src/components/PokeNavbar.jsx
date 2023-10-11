@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-// import Image from 'react-bootstrap/Image';
 
 export default function Navbar() {
     const setActiveClass = ({ isActive }) => (isActive ? "active" : undefined);

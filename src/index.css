@@ -1,14 +1,22 @@
+@font-face {
+  font-family: 'PokeFonts';
+  src: url('./src/assets/fonts/PocketMonk.ttf') format('truetype'); 
+}
+
 body {
   /* border: 1px solid red; */
   height: 100vh;
+  font-family: 'PokeFonts', sans-serif; /* Usa el nombre que especificaste en @font-face */
+  -webkit-text-stroke: 2px black;
 }
 
+/* Navbar */
 .active {
   color: red !important;
 }
 
 .nav-link {
-  font-size: 1.5em; 
+  font-size: 2.5em; 
   margin-right: 30px; 
   color: white;
 }
@@ -23,4 +31,16 @@ body {
 
 .pokeIcon{
   margin-left: 1em;
+}
+
+/* Home */
+
+.imgHome{
+  height: 700px;
+  width: 900px;
+}
+
+h1{
+  color: #FFD700;
+  font-size: 4em;
 }
