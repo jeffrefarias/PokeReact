@@ -61,6 +61,11 @@ body {
   padding: 0 0.5em 0 0.5em;
 }
 
+.pokeTituloPokemons{
+  color: #FFD700;
+  -webkit-text-stroke: 2px black;
+}
+
 /* PokError */
 
 .DivError h1{
@@ -77,4 +82,26 @@ body {
 p{
   color: #FFD700;
   font-size: 3em;   
+}
+
+/* PokeDetalles */
+.pokeImgSeleccionada{
+  /* border: 1px solid red; */
+  height: 500px;
+  width: 500px;
+}
+
+.pokeNameDetalle{
+  color: #FFD700;
+  font-size: 3em;  
+}
+
+h3{
+  color: #FFD700;
+  font-size: 2em;  
+}
+
+.pokeStats li{
+  list-style: none;
+  font-size: 3.5em;
 }

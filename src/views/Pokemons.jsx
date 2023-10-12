@@ -42,11 +42,12 @@ function Pokemons() {
 
   return (
     <div>
-      <div className='text-center'>
-        <h1>Choose your Pokémon...</h1>
+      <div className='text-center mt-5'>
+        <h1 className='pokeTituloPokemons'>Choose your Pokémon...</h1>
       </div>
-      <div className='d-flex justify-content-center mt-4'>
-        <select className='form-select text-white pokeSelect' value={pokeName} onChange={handlePokemonChange}>
+      <div className='d-flex justify-content-center mt-2'>
+      <select className='form-select text-white pokeSelect' value={pokeName} onChange={handlePokemonChange}>
+          <option value="">Seleccionar Pokémon</option>
           {pokemons.map((nombrePokemon, index) => (
             <option key={index} value={nombrePokemon}>
               {nombrePokemon}
