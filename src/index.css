@@ -44,3 +44,8 @@ h1{
   color: #FFD700;
   font-size: 4em;
 }
+
+.pokeSelect{
+ width: 30%;
+ font-size: 30px;
+}
