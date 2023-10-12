@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="navbar-collapse justify-content-between">
                
                 <div className="navbar-nav align-items-start">
-                    <NavLink className={`nav-link pokeIcon ${setActiveClass}`} to='/*'>
+                    <NavLink className={`nav-link pokeIcon ${setActiveClass}`} to='/PokError'>
                         <img src="./src/assets/img/icon.png" alt="" />
                     </NavLink>
                 </div>
@@ -18,7 +18,7 @@ export default function Navbar() {
                     <NavLink className={`nav-link ${setActiveClass}`} to="/" >
                         Home
                     </NavLink>
-                    <NavLink className={`nav-link ${setActiveClass}`} to="/pokemons">
+                    <NavLink className={`nav-link ${setActiveClass}`} to="/Pokemons">
                         Pokemons
                     </NavLink>
                 </div>

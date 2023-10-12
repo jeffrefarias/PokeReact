@@ -1,7 +1,7 @@
 import Image from 'react-bootstrap/Image';
 
 
-const Home = () => {
+const PokeDetalles = () => {
     return (
       <div className="text-center mt-5">
         <h1>Welcome Pokemon Master</h1>
@@ -10,4 +10,4 @@ const Home = () => {
     )
   }
   
-  export default Home
+  export default PokeDetalles

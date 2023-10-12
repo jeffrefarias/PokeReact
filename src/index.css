@@ -40,7 +40,7 @@ body {
   width: 900px;
 }
 
-h1{
+.TituloHome{
   color: #FFD700;
   font-size: 4em;
 }
@@ -48,4 +48,33 @@ h1{
 .pokeSelect{
  width: 30%;
  font-size: 30px;
+}
+
+.btnFind{
+  color: white;
+  font-size: 2em;
+}
+
+.btnError{
+  color: white;
+  font-size: 2em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+/* PokError */
+
+.DivError h1{
+  font-size: 12em;   
+  color: white;
+  -webkit-text-stroke: 6px black;
+}
+
+.pokeImg{
+  width: 200px;
+  height: 200px;
+}
+
+p{
+  color: #FFD700;
+  font-size: 3em;   
 }
